@@ -1,0 +1,35 @@
+.footer__top{
+    height: 104px;
+    border-top: solid 1px #c2d1d9;
+    border-bottom: solid 1px #c2d1d9;
+}
+.footer__nav-list{
+    display: flex;
+}
+.footer__nav-item{
+    margin-right: 60px;
+}
+.footer__nav-item:last-child{
+    margin-right: 0;
+}
+.footer__nav-link{
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: normal;
+    color: #505d68;
+    text-transform: uppercase;
+}
+.footer__logo{
+    width: 72px;
+    height: 19px;
+    background-image: url("../../img/icons/logo.png");
+}
+.footer__bottom{
+    height: 38px;
+}
+.footer__copyright{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: normal;
+    color: #505d68;
+}

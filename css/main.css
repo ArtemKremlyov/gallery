@@ -1,0 +1,18 @@
+@import "blocks/header.css";
+@import "blocks/nav.css";
+@import "blocks/hero.css";
+@import "blocks/description.css";
+@import "blocks/portfolio.css";
+@import "blocks/design.css";
+@import "blocks/contacts.css";
+@import "blocks/socials.css";
+@import "blocks/subscribe.css";
+@import "blocks/footer.css";
+
+
+
+
+
+@import "base.css";
+@import "normalize.css";
+@import "fonts.css";

@@ -1,0 +1,34 @@
+.description{
+    height: 465px;
+    padding-top: 85px;
+}
+.description__logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #424b5a;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 59px;
+    font-family: "Myriad Pro";
+    font-weight: 700;
+}
+.description__title{
+    font-family: Myriad Pro;
+    font-size: 50px;
+    color: #505d68;
+    font-weight: normal;
+}
+.description__text{
+    max-width: 730px;
+    line-height: 1.5;
+    font-family: Myriad Pro;
+    font-size: 16px;
+    font-weight: normal;
+    color: #a1aeb7;
+    text-align: center;
+}

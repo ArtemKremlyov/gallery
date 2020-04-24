@@ -1,0 +1,86 @@
+.portfolio{
+    height: 1040px;
+    padding-top: 96px;
+}
+.portfolio__top{
+    display: flex;
+}
+.portfolio__about{
+    width: 556px;
+    height: 556px;
+    background-color: #f2f5f7;
+    border: solid 0.7px #c2d1d9;    
+    padding-top: 42px;
+    padding-left: 50px;
+}
+.portfolio__about-title{
+    font-family: Myriad Pro;
+    font-size: 21px;
+    color: #505d68;
+    margin-bottom: 51px;
+}
+.portfolio__about-text{
+    font-family: Myriad Pro;
+    font-size: 50px;
+}
+.portfolio__about-text:last-child{
+    font-family: Myriad Pro;
+    font-size: 50px;
+    color: #505d68;
+    line-height: 1.28;
+}
+.portfolio__about-footer{
+    display: flex;
+    margin-right: 55px;
+}
+.portfolio__about-lorem{
+    font-family: Myriad Pro;
+    font-size: 16px;
+    font-weight: normal;
+    color: #a1aeb7;
+    max-width: 270px;
+    line-height: 1.5;
+    margin-right: 55px;
+}
+.portfolio__about-link{
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-weight: normal;
+    color: #424b5a;
+    text-decoration: underline;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+}
+.portfolio__about-link:after{
+    content: '';
+    display: block;
+    width: 13px;
+    height: 13px;
+}
+.portfolio__top-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio__small{
+    width: 263px;
+    height: 263px;
+    border: solid 0.7px #c2d1d9;
+    background-image: url("../../img/icons/empty.png");
+    background-size: cover;
+    margin-bottom: 30px;
+    margin-left: 29px;
+    background-position-y: -42px;
+}
+.portfolio__bottom{
+    display: flex;
+}
+.portfolio__big{
+    width: 847px;
+    height: 263px;
+    border-radius: 1.5px;
+    border: solid 0.7px #c2d1d9;
+    background-image: url("../../img/icons/empty.png");
+    background-size: cover;
+    background-position-y: -450px;
+}

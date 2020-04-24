@@ -1,0 +1,51 @@
+*,*:after,*:before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.wrapper{
+
+}
+.header__logo{
+    display: flex;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.container--hero{
+    display: flex;
+}
+.container--description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container--design{
+    width: 380px;
+}
+.container--contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container--footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}

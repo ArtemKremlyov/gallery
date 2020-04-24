@@ -1,0 +1,96 @@
+.contacts{
+    height: 860px;
+    padding-top: 120px;
+}
+.contacts__title{
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 80px;
+}
+.contacts__tagline{
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 54px;
+}
+.contacts__form{
+    width: 555px;
+    margin-bottom: 44px;
+}
+.contacts__form-row{
+    display: flex;
+    margin-bottom: 17px;
+    position: relative;
+}
+.contacts__form-email{
+    margin-right: 38px;
+    flex: 1;
+    height: 40px;
+    border-radius: 2px;
+    border:1px #c2d1d9 solid;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c2d1d9;
+    line-height: 1.29;
+    padding-left: 38px;
+    position: relative;
+}
+.contacts__form-email::placeholder{
+    color: #c2d1d9;
+}
+.email-ico{
+    position: absolute;
+    top: 10px;
+    left: 9px;
+    display: block;
+    width: 22px;
+    height: 18px;
+    background-image: url("../../img/icons/mail-icon-light.png");
+}
+.contacts__form-select{
+    border-radius: 2px;
+    border:1px #c2d1d9 solid;
+    flex: 1;
+    height: 40px;
+    line-height: 1.29;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c2d1d9;
+    padding-left: 5px;
+}
+.contacts__form-textarea{
+    flex: 1;
+    border-radius: 2px;
+    border:1px #c2d1d9 solid;
+    height: 96px;
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c2d1d9;
+    padding-top: 16px;
+    padding-left: 9px;
+}
+.contacts__form-textarea::placeholder{
+    font-family: Myriad Pro;
+    font-size: 14px;
+    font-weight: normal;
+    color: #c2d1d9;
+}
+.contacts__form-submit{
+    width: 166px;
+    height: 40px;
+    background-color: #424b5a;
+    font-family: Myriad Pro;
+    font-size: 12px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
